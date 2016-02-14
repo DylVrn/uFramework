@@ -1,0 +1,3 @@
+Nous avons réaliser la plupart des tests unitaires. L'obtention du mock (pour tester les requetes SQL) ne fonctionne pas. Le test est commenté pour ne pas polluer les autres tests.
+
+Aussi, concernant la négociation de contenu, il y a un problème lorsqu'on s'attend à recevoir du JSON (le content-type obtenu ne correspond pas). Cela provoque une failure.
